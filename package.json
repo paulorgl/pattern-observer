@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node ./src/index.ts",
-    "tsc": "tsc"
+    "type:dev": "ts-node src/typescript/index.ts",
+    "js:dev": "node src/javascript/index.js"
   },
   "keywords": [],
   "author": "",
