@@ -16,6 +16,10 @@ store.attach(client);
 //add other client to list observables in store
 store.attach(otherClient);
 
+//remove client in list observables in store
+store.detach(client)
+store.detach(otherClient)
+
 
 //notifies all registered observers
 store.businessLogic();
